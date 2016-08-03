@@ -5,7 +5,7 @@ title: Releases
 ---
 {% for release in site.releases %}
   <section class="card" id="{{ release.id }}">
-    <img src="{{ release.album-art |prepend: site.github.url }}" alt="{{ release.title }}" />
+    <img src="{{ release.album-art |prepend: site.baseurl }}" alt="{{ release.title }}" />
     <section class="release-details">
       <span class="release-artist">{{ release.artist}}</span>
       <span class="release-title">{{ release.title}}</span>
