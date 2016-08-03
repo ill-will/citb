@@ -1,5 +1,6 @@
 ---
-layout: schrodinger-box
-permalink: "/impressum/"
 title: Impressum
+permalink: "/impressum/"
+layout: schrodinger-box
 ---
+
