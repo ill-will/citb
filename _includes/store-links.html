@@ -1,0 +1,11 @@
+{% for store in site.data.stores %}
+    {% if include.type[store.name] and include.type[store.name] != '' %}
+      <a href="{{ include.type[store.name] }}" class="socicon-{{ store.name }}" aria-hidden="true"></a>
+    {% else %}
+        {% for artist in site.artists %}
+          {% if artist.Name == include.type.artist and artist[store.name] and artist[store.name] != '' %}
+            <a href="{{ artist[store.name] }}" class="socicon-{{ store.name }}" aria-hidden="true"></a>
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}

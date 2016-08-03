@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="">
+  <head>
+    {% capture html-title %}
+      {{ page.title }} – Cat in the Box
+    {% endcapture %}
+    {% include head.html title=html-title %}
+  </head>
+  <body>
+    <div class="bracket-top">
+      <h4>{{page.title|upcase}}</h4>
+    </div>
+    <div class="box-design">
+
+      <!-- <nav class="side-nav">
+        <ul>
+          <li><div class="nav-bullet"></div><a href="/">BLOG</a></li>
+          <li><div class="nav-bullet"></div><a href="/artists/">ARTISTS</a></li>
+          <li><div class="nav-bullet"></div><a href="/artists/">RELEASES</a></li>
+          <li><div class="nav-bullet"></div><a href="/videos/">VIDEOS</a></li>
+          <li><div class="nav-bullet"></div><a href="/">SHOP</a></li>
+          <li><div class="nav-bullet"></div><a href="/">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-trigger"></div> -->
+
+      {% include front-nav.html %}
+
+      <main>
+        {{ content }}
+      </main>
+    </div>
+    <div class="bracket-bottom">
+      <h4>SUPERPOSITION NOW</h4>
+    </div>
+  </body>
+</html>

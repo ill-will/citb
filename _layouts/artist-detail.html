@@ -1,0 +1,27 @@
+---
+layout: schrodinger-box
+---
+<img src="{{ page.Photo |prepend: site.github.url }}" alt="{{page.Name}}" />
+<section class="large-social">
+  {% include social-links.html type=page %}
+</section>
+
+<section class="text">
+  {{ page.content }}
+</section>
+
+<section class="album-grid">
+  {% for release in site.releases %}
+    {% if release.artist == page.Name %}
+      <a href="{{ site.github.url }}/releases/#{{ release.id }}">
+        <img src="{{ release.album-art |prepend: site.github.url }}" alt="" />
+      </a>
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% for video in site.videos %}
+  {% if video.artist == page.Name %}
+    <iframe width="100%" height="400px" src="{{ video.link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
+  {% endif %}
+{% endfor %}
