@@ -4,10 +4,10 @@
     <title>Cat in the Box</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Aug 2016 23:18:09 +0200</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 23:18:09 +0200</lastBuildDate>
+    <link>http://example.com/citb/</link>
+    <atom:link href="http://example.com/citb/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 Aug 2016 23:58:32 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 23:58:32 +0200</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;This is a sample post. Take it as a template for further activity.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 22:13:21 +0200</pubDate>
-        <link>http://example.com/jekyll/update/2016/08/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/jekyll/update/2016/08/01/welcome-to-jekyll.html</guid>
+        <link>http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
