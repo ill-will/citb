@@ -1,6 +1,5 @@
 ---
 title: Sola Plexus
-published: false
 Name: Sola Plexus
 facebook: "/"
 ---
