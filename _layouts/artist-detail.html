@@ -2,7 +2,7 @@
 layout: schrodinger-box
 ---
 
-<img src="{{ page.Photo |prepend: site.baseurl }}" alt="{{page.Name}}" />
+<img src="{{ page.Photo }}" alt="{{page.Name}}" />
 <section class="large-social">
   {% include social-links.html type=page %}
 </section>
@@ -14,8 +14,8 @@ layout: schrodinger-box
 <section class="album-grid">
   {% for release in site.releases %}
     {% if release.artist == page.Name %}
-      <a href="{{ site.baseurl }}/releases/#{{ release.id }}">
-        <img src="{{ release.album-art |prepend: site.baseurl }}" alt="" />
+      <a href="/releases/#{{ release.id }}">
+        <img src="{{ release.album-art }}" alt="" />
       </a>
     {% endif %}
   {% endfor %}

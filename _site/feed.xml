@@ -6,17 +6,17 @@
 </description>
     <link>http://example.com/citb/</link>
     <atom:link href="http://example.com/citb/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Aug 2016 23:58:32 +0200</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 23:58:32 +0200</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 23:58:59 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 23:58:59 +0200</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Example</title>
         <description>&lt;p&gt;&lt;img src=&quot;images/Leafs.jpeg&quot; alt=&quot;Leafs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a sample post. Take it as a template for further activity.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Aug 2016 22:13:21 +0200</pubDate>
+        <pubDate>Mon, 01 Aug 2016 22:13:00 +0200</pubDate>
         <link>http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</guid>
         
