@@ -1,8 +1,9 @@
 ---
-layout: schrodinger-box
-permalink: "/releases/"
 title: Releases
+permalink: "/releases/"
+layout: schrodinger-box
 ---
+
 {% for release in site.releases %}
   <section class="card" id="{{ release.id }}">
     <img src="{{ release.album-art |prepend: site.baseurl }}" alt="{{ release.title }}" />

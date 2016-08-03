@@ -1,8 +1,9 @@
 ---
-layout: schrodinger-box
-permalink: "/artists/"
 title: Artists
+permalink: "/artists/"
+layout: schrodinger-box
 ---
+
 {% for artist in site.artists %}
   <article class="card">
     <a href="{{ artist.url |prepend: site.baseurl }}">

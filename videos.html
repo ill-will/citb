@@ -1,8 +1,9 @@
 ---
-layout: schrodinger-box
-permalink: "/videos/"
 title: Videos
+permalink: "/videos/"
+layout: schrodinger-box
 ---
+
 {% for video in site.videos %}
   <section class="card video">
     <iframe width="100%" height="400px" src="{{ video.link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
