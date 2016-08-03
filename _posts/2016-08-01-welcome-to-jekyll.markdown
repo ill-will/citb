@@ -1,10 +1,9 @@
 ---
-title: Welcome to Jekyll!
-date: 2016-08-01 22:13:21 +02:00
+title: Example
+date: 2016-08-01 22:13:00 +02:00
 categories:
 - jekyll
 - update
-layout: post
 ---
 
 ![Leafs](images/Leafs.jpeg)
