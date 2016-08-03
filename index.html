@@ -1,101 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>CAT IN THE BOX | Superposition Now!</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
+---
+layout: schrodinger
+title: Cat in the Box
+---
+<header>
+CITB.
+</header>
 
 
-<body>
+{% include front-nav.html %}
 
-  <header>
-    <div class="title">CITB.</div>
-  </header>
+<main>
+  {% for post in site.posts %}
+  <article class="card">
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</main>
 
-
-
-  <main>
-    <div class="container nav">
-      <div class="row">
-        <div class="col l2 s4">
-          <img src="svg/Blog.svg" alt="Blog"/>
-        </div>
-        <div class="col l2 s4">
-          <a href="artists.html"><img src="svg/Artists.svg" alt="Artists"/></a>
-        </div>
-        <div class="col l2 s4">
-          <a href="releases.html"><img src="svg/Releases.svg" alt="Releases"/></a>
-        </div>
-        <div class="col l2 s4">
-          <a href="videos.html"><img src="svg/Videos.svg" alt="Videos"/></a>
-        </div>
-        <div class="col l2 s4">
-          <img src="svg/Shop.svg" alt="Shop"/>
-        </div>
-        <div class="col l2 s4">
-          <img src="svg/Contact.svg" alt="Contact"/>
-        </div>
-      </div>
-    </div>
-
-    <div class="container" id="blog-start">
-      <div class="row">
-        <div class="col l12">
-           <div class="card hoverable">
-             <div class="card-image">
-               <img src="images/Leafs.jpeg">
-             </div>
-             <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-           </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col l12">
-           <div class="card hoverable">
-             <div class="card-image">
-               <img src="images/Girls.jpeg">
-             </div>
-             <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-           </div>
-        </div>
-      </div>
-
-    </div>
-  </main>
-
-
-
-  <footer class="page-footer black">
-    <div class="container">
-      <div class="row">
-        <div class="col l2 s6 offset-l5 offset-s3">
-          <img class="responsive-img center-align" src="svg/label.svg">
-          <p class="white-text center-align">IMPRESSUM</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-</html>
+<footer>
+  <img src="{{ site.github.url }}/images/label.svg" alt="Logo" />
+  <a href="{{ site.github.url }}/impressum/">IMPRESSUM</a>
+</footer>

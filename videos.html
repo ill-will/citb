@@ -1,99 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>CAT IN THE BOX | Superposition Now!</title>
+---
+layout: schrodinger-box
+permalink: "/videos/"
+title: Videos
+---
+{% for video in site.videos %}
+  <section class="card video">
+    <iframe width="100%" height="400px" src="{{ video.link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
+    <section class="release-details">
+      <span class="release-artist">{{ video.artist }}</span>
+      <span class="release-title">{{ video.title }}</span>
+      <span class="release-date">{{ video.date |date: "%F" }}</span>
+    </section>
 
+    <section class="small-social">
+      {% include social-links.html type=video %}
+    </section>
 
-<body>
-
-  <header>
-    <div class="site-name">VIDEOS</div>
-
-    <div class="frame">
-      <div class="bullet-nav">
-        <div class="bullet-element valign-wrapper">
-          <div class="bullet-point valign"></div>
-          <a href="index.html#blog-start" class="valign">BLOG</a>
-        </div>
-        <div class="bullet-element valign-wrapper">
-          <div class="bullet-point valign"></div>
-          <a href="artists.html" class="valign">ARTISTS</a>
-        </div>
-        <div class="bullet-element valign-wrapper">
-          <div class="bullet-point valign"></div>
-          <a href="releases.html" class="valign">RELEASES</a>
-        </div>
-        <div class="bullet-element valign-wrapper">
-          <div class="bullet-point valign"></div>
-          <a href="#" class="valign">SHOP</a>
-        </div>
-        <div class="bullet-element valign-wrapper">
-          <div class="bullet-point valign"></div>
-          <a href="#" class="valign">CONTACT</a>
-        </div>
-      </div>
-
-      <div class="content-div">
-
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_mPd_SDAryQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="details">
-          <div class="release-details">
-            <p class="release-artist">Sola Plexus</p>
-            <p class="release-title">Brown Boys Overcome</p>
-            <p class="release-date">2016-10-03</p>
-          </div>
-          <div class="social-small">
-            <i class="small material-icons">surround_sound</i>
-            <i class="small material-icons">invert_colors</i>
-            <i class="small material-icons">label</i>
-            <i class="small material-icons">polymer</i>
-          </div>
-        </div>
-
-
-        <div class="divider"></div>
-
-
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/sEhy-RXkNo0" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="details">
-          <div class="release-details">
-            <p class="release-artist">Sola Plexus</p>
-            <p class="release-title">Brown Boys Overcome</p>
-            <p class="release-date">2016-10-03</p>
-          </div>
-          <div class="social-small">
-            <i class="small material-icons">surround_sound</i>
-            <i class="small material-icons">invert_colors</i>
-            <i class="small material-icons">label</i>
-            <i class="small material-icons">polymer</i>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="superposition">SUPERPOSITION NOW</div>
-  </header>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-</html>
+    {{ video.content }}
+  </section>
+{% endfor %}
