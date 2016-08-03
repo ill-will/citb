@@ -5,6 +5,13 @@ collections:
   artists:
     title: Artists
     output: true
+    Social:
+      Facebook: 
+      Twitter: 
+      Youtube: 
+      Instagram: 
+      Soundcloud: 
+      Snapchat: 
   posts:
     title: Posts
     output: true
