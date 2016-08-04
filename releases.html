@@ -6,10 +6,10 @@ layout: schrodinger-box
 
 {% for release in site.releases %}
   <section class="card" id="{{ release.id }}">
-    <img src="{{ release.Artwork }}" alt="{{ release.Title }}" />
+    <img src="{{ release.Artwork }}" alt="{{ release.title }}" />
     <section class="release-details">
       <span class="release-artist">{{ release.Artist}}</span>
-      <span class="release-title">{{ release.Title}}</span>
+      <span class="release-title">{{ release.title}}</span>
       <span class="release-date">{{ release.date |date: "%F" }}</span>
     </section>
 
@@ -24,7 +24,7 @@ layout: schrodinger-box
     {{ release.content }}
 
     {% for video in site.videos %}
-      {% if video.Release == release.Title %}
+      {% if video.Release == release.title %}
         <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
       {% endif %}
     {% endfor %}
