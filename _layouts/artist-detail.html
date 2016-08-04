@@ -22,7 +22,7 @@ layout: schrodinger-box
 </section>
 
 {% for video in site.videos %}
-  {% if video.artist == page.Name %}
+  {% if video.Artist == page.Name %}
     <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}
 {% endfor %}
