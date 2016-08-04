@@ -1,6 +1,5 @@
 ---
 title: Sola Plexus
-Name: Sola Plexus
 Social:
   Facebook: "/"
 ---
