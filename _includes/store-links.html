@@ -1,16 +1,16 @@
 {% for store in site.data.stores %}
     {% if include.type.Stores[store.name] and include.type.Stores[store.name] != '' %}
-      <a href="{{ include.type.Stores[store.name] }}" class="socicon-{{ store.name }}" aria-hidden="true"></a>
+      <a href="{{ include.type.Stores[store.name] }}" class="socicon-{{ store.name|downcase }}" aria-hidden="true"></a>
     {% elsif include.type.Release.Stores[store.name] and include.type.Release.Stores[store.name] != '' %}
         {% for release in site.releases %}
           {% if release.title == include.type.Release and release.Stores[store.name] and release.Stores[store.name] != '' %}
-            <a href="{{ release.Stores[store.name] }}" class="socicon-{{ store.name }}" aria-hidden="true"></a>
+            <a href="{{ release.Stores[store.name] }}" class="socicon-{{ store.name|downcase }}" aria-hidden="true"></a>
           {% endif %}
         {% endfor %}
     {% else %}
       {% for artist in site.artists %}
         {% if artist.Name == include.type.Artist and artist.Stores[store.name] and artist.Stores[store.name] != '' %}
-          <a href="{{ artist.Stores[store.name] }}" class="socicon-{{ store.name }}" aria-hidden="true"></a>
+          <a href="{{ artist.Stores[store.name] }}" class="socicon-{{ store.name|downcase }}" aria-hidden="true"></a>
         {% endif %}
       {% endfor %}
     {% endif %}
