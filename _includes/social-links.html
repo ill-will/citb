@@ -1,6 +1,4 @@
 {% for social in site.data.social %}
-  {{ social.name }}
-  {{ include.type.Social[social.name] }}
     {% if include.type.Social[social.name] and include.type.Social[social.name] != '' %}
       <a href="{{ include.type.Social[social.name] }}" class="socicon-{{ social.name|downcase }}" aria-hidden="true"></a>
     {% elsif include.type.Release.Social[social.name] and include.type.Release.Social[social.name] != '' %}
