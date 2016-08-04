@@ -13,9 +13,9 @@ layout: schrodinger-box
 
 <section class="album-grid">
   {% for release in site.releases %}
-    {% if release.artist == page.Name %}
+    {% if release.Artist == page.Name %}
       <a href="/releases/#{{ release.id }}">
-        <img src="{{ release.album-art }}" alt="" />
+        <img src="{{ release.Artwork }}" alt="" />
       </a>
     {% endif %}
   {% endfor %}
@@ -23,6 +23,6 @@ layout: schrodinger-box
 
 {% for video in site.videos %}
   {% if video.artist == page.Name %}
-    <iframe width="100%" height="400px" src="{{ video.link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}
 {% endfor %}
