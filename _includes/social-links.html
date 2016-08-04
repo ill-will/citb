@@ -1,10 +1,16 @@
 {% for social in site.data.social %}
-    {% if include.type[social.name] and include.type[social.name] != '' %}
-      <a href="{{ include.type[social.name] }}" class="socicon-{{ social.name }}" aria-hidden="true"></a>
+    {% if include.type.Social[social.name] and include.type.Social[social.name] != '' %}
+      <a href="{{ include.type.Social[social.name] }}" class="socicon-{{ social.name|lowcase }}" aria-hidden="true"></a>
+    {% elsif include.type.Release.Social[social.name] and include.type.Release.Social[social.name] != '' %}
+        {% for release in site.releases %}
+          {% if release.title == include.type.Release and release.Social[social.name] and release.Social[social.name] != '' %}
+            <a href="{{ release.Social[social.name] }}" class="socicon-{{ social.name }}" aria-hidden="true"></a>
+          {% endif %}
+        {% endfor %}
     {% else %}
         {% for artist in site.artists %}
-          {% if artist.Name == include.type.artist and artist[social.name] and artist[social.name] != '' %}
-            <a href="{{ artist[social.name] }}" class="socicon-{{ social.name }}" aria-hidden="true"></a>
+          {% if artist.Name == include.type.artist and artist.Social[social.name] and artist.Social[social.name] != '' %}
+            <a href="{{ artist.Social[social.name] }}" class="socicon-{{ social.name|lowcase }}" aria-hidden="true"></a>
           {% endif %}
         {% endfor %}
     {% endif %}

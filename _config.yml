@@ -5,13 +5,6 @@ collections:
   artists:
     title: Artists
     output: true
-    Social:
-      Facebook: 
-      Twitter: 
-      Youtube: 
-      Instagram: 
-      Soundcloud: 
-      Snapchat: 
   posts:
     title: Posts
     output: true
@@ -32,7 +25,63 @@ defaults:
     layout: artist-detail
     Name: ''
     Photo: "/images/Leafs.jpeg"
-    Facebook: ''
+    Social:
+      Facebook:
+      Twitter:
+      Youtube:
+      Instagram:
+      Soundcloud:
+      Snapchat:
+    Stores:
+      iTunes:
+      Amazon:
+      Deezer:
+      Play:
+      Spotify:
+      Beatport:
+- scope:
+    path: ''
+    type: releases
+  values:
+    Title:
+    Artist:
+    Photo: "/images/Leafs.jpeg"
+    Social:
+      Facebook:
+      Twitter:
+      Youtube:
+      Instagram:
+      Soundcloud:
+      Snapchat:
+    Stores:
+      iTunes:
+      Amazon:
+      Deezer:
+      Play:
+      Spotify:
+      Beatport:
+- scope:
+    path: ''
+    type: videos
+  values:
+    Title:
+    Artist:
+    Release:
+    Photo: "/images/Leafs.jpeg"
+    Social:
+      Facebook:
+      Twitter:
+      Youtube:
+      Instagram:
+      Soundcloud:
+      Snapchat:
+    Stores:
+      iTunes:
+      Amazon:
+      Deezer:
+      Play:
+      Spotify:
+      Beatport:
 email: willi@yellyell.wtf
 description: |
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.

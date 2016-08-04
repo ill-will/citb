@@ -1,6 +1,6 @@
-- name: facebook
-- name: twitter
-- name: youtube
-- name: instagram
-- name: snapchat
-- name: soundcloud
+- name: Facebook
+- name: Twitter
+- name: Youtube
+- name: Instagram
+- name: Snapchat
+- name: Soundcloud

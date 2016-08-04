@@ -1,5 +1,6 @@
-- name: itunes
-- name: deezer
-- name: play
-- name: amazon
-- name: spotify
+- name: iTunes
+- name: Deezer
+- name: Play
+- name: Amazon
+- name: Spotify
+- name: Beatport
