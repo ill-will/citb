@@ -6,8 +6,5 @@ categories:
 - update
 ---
 
-![20150117_SusanneBlech-007.jpg](/uploads/20150117_SusanneBlech-007.jpg)
-
-Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! 
-
-Check out this crappy bummer of a website: [OWSLA](http://owsla.com)
+![Eminem.jpg](/uploads/Eminem.jpg)
+Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! 
