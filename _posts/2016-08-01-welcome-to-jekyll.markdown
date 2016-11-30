@@ -1,11 +1,10 @@
 ---
-title: Example
+title: Eminem - Campaign Speech!
 date: 2016-08-01 22:13:00 +02:00
 categories:
 - jekyll
 - update
 ---
 
-![Leafs](images/Leafs.jpeg)
-
-This is a sample post. Take it as a template for further activity.
+![20150117_SusanneBlech-007.jpg](/uploads/20150117_SusanneBlech-007.jpg)
+Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng! 
