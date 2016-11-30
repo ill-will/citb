@@ -1,5 +1,6 @@
 ---
 title: Sola Plexus
+Photo: "/uploads/20150117_SusanneBlech-007.jpg"
 Social:
   Facebook: https://www.facebook.com/solaplexus/
   Twitter: https://twitter.com/solaplexus
