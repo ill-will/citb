@@ -7,7 +7,7 @@
     {% include head.html title=html-title %}
   </head>
   <body>
-    <div class="bracket-top">
+    <div class="border-footer">
       <h4>{{page.title|upcase}}</h4>
     </div>
     <div class="box-design">
@@ -27,11 +27,10 @@
 
       {% include front-nav.html %}
 
-      <main>
-        {{ content }}
-      </main>
+      {{ content }}
+      
     </div>
-    <div class="bracket-bottom">
+    <div class="border-footer">
       <h4>SUPERPOSITION NOW</h4>
     </div>
   </body>

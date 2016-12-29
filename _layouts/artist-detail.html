@@ -2,27 +2,29 @@
 layout: schrodinger-box
 ---
 
-<img src="{{ page.Photo }}" alt="{{page.title}}" />
-<section class="large-social">
-  {% include social-links.html type=page %}
-</section>
+<main>
+  <img src="{{ page.Photo }}" alt="{{page.title}}" />
+  <section class="artist-social">
+    {% include social-links.html type=page %}
+  </section>
 
-<section class="text">
-  {{ page.content }}
-</section>
+  <section class="text">
+    {{ page.content }}
+  </section>
 
-<section class="album-grid">
-  {% for release in site.releases %}
-    {% if release.Artist == page.title %}
-      <a href="/releases/#{{ release.id }}">
-        <img src="{{ release.Artwork }}" alt="" />
-      </a>
+  <section class="album-grid">
+    {% for release in site.releases %}
+      {% if release.Artist == page.title %}
+        <a href="{{ release.url }}">
+          <img src="{{ release.Image }}" alt="" />
+        </a>
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  {% for video in site.videos %}
+    {% if video.Artist == page.title and video.Is-Featured %}
+      <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
     {% endif %}
   {% endfor %}
-</section>
-
-{% for video in site.videos %}
-  {% if video.Artist == page.title %}
-    <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
-  {% endif %}
-{% endfor %}
+</main>

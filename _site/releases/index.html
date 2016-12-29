@@ -58,12 +58,29 @@ $( document ).ready(function() {
           menuVisible = false;
       }
   })
+
+
+  // Find all YouTube videos and set their aspect ratio to 16:9
+  function correctAR() {
+    var allVideos = $("iframe[src*='//www.youtube.com']");
+
+    allVideos.each(function() {
+      var width = $(this).width();
+      $(this).height(width*9/16);
+    });
+  }
+
+  correctAR();
+
+  $(window).resize(correctAR);
+
+
 });
 </script>
 
   </head>
   <body>
-    <div class="bracket-top">
+    <div class="border-footer">
       <h4>RELEASES</h4>
     </div>
     <div class="box-design">
@@ -92,114 +109,18 @@ $( document ).ready(function() {
 
 
       <main>
-        
-  <section class="card" id="/releases/brown-boys-overcome">
-    <img src="/images/Album-DarkSide.jpg" alt="Brown Boys Overcome LP" />
-    <section class="release-details">
-      <span class="release-artist">Sola Plexus</span>
-      <span class="release-title">Brown Boys Overcome LP</span>
-      <span class="release-date">2016-08-08</span>
+  
+    <section class="album-grid">
+      <a href="/releases/brown-boys-overcome.html">
+        <img src="/uploads/Bildschirmfoto%202016-11-30%20um%2001.55.09.png" alt="" />
+      </a>
     </section>
+  
+</main>
 
-    <section class="small-social">
       
-    
-        
-          
-            <a href="/" class="socicon-facebook" aria-hidden="true"></a>
-          
-        
-    
-
-    
-        
-          
-        
-    
-
-    
-        
-          
-        
-    
-
-    
-        
-          
-        
-    
-
-    
-        
-          
-        
-    
-
-    
-        
-          
-        
-    
-
-
-    </section>
-
-    <section class="large-social">
-      
-    
-      
-        
-      
-    
-
-    
-      
-        
-      
-    
-
-    
-      
-        
-      
-    
-
-    
-      
-        
-      
-    
-
-    
-      
-        
-      
-    
-
-    
-      
-        
-      
-    
-
-
-    </section>
-
-    
-
-
-    
-      
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/t9XwrN1iZ_s" frameborder="0" allowfullscreen></iframe>
-      
-    
-
-  </section>
-
-
-      </main>
     </div>
-    <div class="bracket-bottom">
+    <div class="border-footer">
       <h4>SUPERPOSITION NOW</h4>
     </div>
   </body>

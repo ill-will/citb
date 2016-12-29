@@ -58,12 +58,29 @@ $( document ).ready(function() {
           menuVisible = false;
       }
   })
+
+
+  // Find all YouTube videos and set their aspect ratio to 16:9
+  function correctAR() {
+    var allVideos = $("iframe[src*='//www.youtube.com']");
+
+    allVideos.each(function() {
+      var width = $(this).width();
+      $(this).height(width*9/16);
+    });
+  }
+
+  correctAR();
+
+  $(window).resize(correctAR);
+
+
 });
 </script>
 
   </head>
   <body>
-    <div class="bracket-top">
+    <div class="border-footer">
       <h4>ARTISTS</h4>
     </div>
     <div class="box-design">
@@ -91,19 +108,22 @@ $( document ).ready(function() {
 </nav>
 
 
-      <main>
-        
-  <article class="card">
-    <a href="/artists/sola-plexus.html">
-      <img src="/images/Leafs.jpeg" alt="Sola Plexus" />
-    </a>
+      <main class="artists">
+  
+    <article class="card">
+      <a href="/artists/sola-plexus.html">
+        <div class="artist-name">
+          SOLA PLEXUS
+        </div>
+        <img src="/uploads/20150117_SusanneBlech-007.jpg" alt="Sola Plexus" />
+      </a>
+    </article>
+  
+</main>
 
-  </article>
-
-
-      </main>
+      
     </div>
-    <div class="bracket-bottom">
+    <div class="border-footer">
       <h4>SUPERPOSITION NOW</h4>
     </div>
   </body>

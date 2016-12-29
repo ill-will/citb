@@ -1,0 +1,31 @@
+---
+layout: schrodinger-box
+---
+
+<main>
+  <section class="card" id="{{ page.id }}">
+    <img src="{{ page.Image }}" alt="{{ page.title }}" />
+    <section class="release-details">
+      <span class="release-artist">{{ page.Artist}}</span>
+      <span class="release-title">{{ page.title}}</span>
+      <span class="release-date">{{ page.date |date: "%F" }}</span>
+    </section>
+
+    <section class="release-social">
+      {% include store-links.html type=page %}
+    </section>
+
+    <!-- <section class="large-social">
+      {% include store-links.html type=release %}
+    </section> -->
+
+    {{ page.content }}
+
+    {% for video in site.videos %}
+      {% if video.Release == page.title %}
+        <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
+      {% endif %}
+    {% endfor %}
+
+  </section>
+</main>

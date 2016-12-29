@@ -2,23 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cat in the Box</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://example.com/citb/</link>
-    <atom:link href="http://example.com/citb/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Aug 2016 22:15:31 +0200</pubDate>
-    <lastBuildDate>Thu, 04 Aug 2016 22:15:31 +0200</lastBuildDate>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://example.com/</link>
+    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Dec 2016 23:50:29 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2016 23:50:29 +0100</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
-        <title>Example</title>
-        <description>&lt;p&gt;&lt;img src=&quot;images/Leafs.jpeg&quot; alt=&quot;Leafs&quot; /&gt;&lt;/p&gt;
+        <title>Der Schrei jetzt als Actionfigur!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/uploads/Schrei.jpg&quot; alt=&quot;Schrei.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is a sample post. Take it as a template for further activity.&lt;/p&gt;
+&lt;p&gt;Wenn nicht das teuerste Gemälde eine Actionfigur haben kann, dann bitte schön was? Genau der 119.922.500$ Schrei von Edvard Munchs ist jetzt auch für uns erschwinglich und zu erwerben. Nein, Mattel macht es nicht möglich sondern die Die Good Smile Company die schon u.a. mit die Venus von Milo, den David von Michelangelo und den Denker von Rodin andere Actionfiguren, die auf Kunstwerken basieren, veröffentlicht haben.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Nov 2016 02:45:00 +0100</pubDate>
+        <link>http://example.com/2016/11/30/der-schrei-jetzt-als-actionfigur.html</link>
+        <guid isPermaLink="true">http://example.com/2016/11/30/der-schrei-jetzt-als-actionfigur.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SOULWAX ARE BACK!</title>
+        <description>&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293087188&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;11 Jahre hat es gedauert bis Soulwax ihre nächste Nummer veröffentlichen. Zwar waren die Brüder Stephen und David Dewaele nicht untätig und waren vor allem als 2manydjs unterwegs, doch die Zeit war scheinbar nötig um die Band zusammen zu bringen und das erste Lebenszeichen zu geben. Seinen Fans schenken sie auf jeden Fall “Transient Program for Drums and Machinery” und geben auch die ersten Tourdates schon bekannt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/soulwax&quot;&gt;SOULWAX FACEBOOK&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Nov 2016 02:40:00 +0100</pubDate>
+        <link>http://example.com/2016/11/30/soulwax-are-back.html</link>
+        <guid isPermaLink="true">http://example.com/2016/11/30/soulwax-are-back.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Eminem - Campaign Speech!</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1cpUwbr5YyE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Aktuell meldet sich Slim Shady mit einem fast 8 minütigen Radgeschoss. So Fuck Trump and Peng Peng!&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 22:13:00 +0200</pubDate>
-        <link>http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/citb/jekyll/update/2016/08/01/welcome-to-jekyll.html</guid>
+        <link>http://example.com/jekyll/update/2016/08/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://example.com/jekyll/update/2016/08/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

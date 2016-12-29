@@ -58,12 +58,29 @@ $( document ).ready(function() {
           menuVisible = false;
       }
   })
+
+
+  // Find all YouTube videos and set their aspect ratio to 16:9
+  function correctAR() {
+    var allVideos = $("iframe[src*='//www.youtube.com']");
+
+    allVideos.each(function() {
+      var width = $(this).width();
+      $(this).height(width*9/16);
+    });
+  }
+
+  correctAR();
+
+  $(window).resize(correctAR);
+
+
 });
 </script>
 
   </head>
   <body>
-    <div class="bracket-top">
+    <div class="border-footer">
       <h4>SOLA PLEXUS</h4>
     </div>
     <div class="box-design">
@@ -92,17 +109,15 @@ $( document ).ready(function() {
 
 
       <main>
-        <img src="/images/Leafs.jpeg" alt="Sola Plexus" />
-<section class="large-social">
-  
+  <img src="/uploads/20150117_SusanneBlech-007.jpg" alt="Sola Plexus" />
+  <section class="artist-social">
     
-      <a href="/" class="socicon-facebook" aria-hidden="true"></a>
+    
+      <a href="https://www.facebook.com/solaplexus/" class="socicon-facebook" aria-hidden="true"></a>
     
 
     
-        
-          
-        
+      <a href="https://twitter.com/solaplexus" class="socicon-twitter" aria-hidden="true"></a>
     
 
     
@@ -112,9 +127,7 @@ $( document ).ready(function() {
     
 
     
-        
-          
-        
+      <a href="https://www.instagram.com/solaplexus/" class="socicon-instagram" aria-hidden="true"></a>
     
 
     
@@ -124,40 +137,51 @@ $( document ).ready(function() {
     
 
     
-        
-          
-        
+      <a href="https://soundcloud.com/solaplexus" class="socicon-soundcloud" aria-hidden="true"></a>
     
 
 
-</section>
+  </section>
 
-<section class="text">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <section class="text">
+    <p>Sola Plexus is the project of MC and artist Jerome V. Sola Plexus started as a duo (Producer &amp; MC) but is widely recognized for the energetic stage appearances of Jerome and the golden mask. A one-man-power-house hyping up audiences with his raw dancing skills, a unique voice and infinite stamina.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>At the age of 8 Jerome began training in Bharathanatyam, a classical Indian dance, laying the foundation for music over the years. 8 years later he quit dancing to follow his love for rappin,  HipHop and Drum&amp;Bass-Jungle. Jerome entered the music business as Nexalite MC joining the German Drum&amp;Bass circuit in 1998, later signing with his german HipHop crew Tengu to Motor Music/Universal Music Germany in 2000.</p>
 
-</section>
+<p>While gaining studio experience as a songwriter working with producer Matthias Arfmann, well known in the german HipHop-scene, he kept hosting and rapping on Drum&amp;Bass-Sets in clubs and on raves. He became part of the German UK Garage scene, taking over floors of big raves like One Nation Germany.
+From 2003 on Jerome was the resident MC of Germanys most successful Indian Party “Bombay Boogie Night” in Heidelberg, performing by the name of Sulal Kool. With the bias that first and foremost music with an Indian vibe should be played at the clubnight, with no limits to jumping through genres, Jerome worked his way through Bhangra, Bollywood music, Drum &amp; Bass, HipHop, House, Techno and UK Garage.</p>
 
-<section class="album-grid">
+<p>While becoming one of the first MCs to be part of the emerging german Dubstep scene Sola Plexus released the debut album “Pan” in 2007. Jerome became part of infamous german electro punk band Susanne Blech in 2009 touring germany and europe while releasing three albums until 2014. In 2012 the party-turned-soundsystem Bombay Boogie celebrated Holi Festival of Colours in Berlin for the first time with Sola Plexus hosting the very first Colour Countdown in Europe. The energy on stage and Jerome’s unique skill to adapt to every DJ, genre and style convinced the promoters to install Sola Plexus as the resident host and MC of all the Holi Festival of Colour events.</p>
+
+<p>Since 2012 Sola Plexus is touring with the Holi Festival of Colours throughout Europe and South America. His skill marvels spectators und astonishes DJs. Even DJs who don’t work with MCs love him on their sets. Unsurprisingly DJ and co-producer of  2013 massive hit “Mamooth”, Moguai, who has never worked with an MC before, encouraged the vocalist to host and rap on his DJ-Sets at the Holi Festival of Colour events, also booking Sola Plexus to perform with him on the “Smash The House” stage at Tomorrowland in 2013.</p>
+
+<p>In 2015 Sola Plexus is focussing on new material covering his love for HipHop and Electronic Dance Music on his recently founded imprint CAT IN THE BOX Recording,  touring with Susanne Blech and hosting the Holi Festival of Colours.</p>
+
+<p>Sola Plexus has opened, worked and performed with:
+Andhim, AKA AKA, Badmarsh &amp; Shri, Bar9, Bara Bröst, Bobby Friction, Crookers, DJ Eskei83, Don Diablo, Drunken Masters, Dub Vision, Dzeko &amp; Torres, Dumme Jungs, Faceless22, Feed Me, Felix Cartal, Foreign Beggars, Flux Pavillion, Gamper &amp; Dadoni, Jack Beats, Jay Sean, Kele, Lexy &amp; K-Paul, Make The Girl Dance, Marco Almanza, Moguai, Nihal (BBC Radio1), Nithin Sawney, Oliver Koletzki, One Jiru, DJ Ritu, Robin Schulz, Sascha Braemer, Thomas Lizzara, Tiefschwarz, Tony Cook (Original Drummer of James Brown), Turntablerocker, Turtle Bay Country Club, Wolfpack, Zane Lowe and many others.</p>
+
+  </section>
+
+  <section class="album-grid">
+    
+      
+        <a href="/releases/brown-boys-overcome.html">
+          <img src="/uploads/Bildschirmfoto%202016-11-30%20um%2001.55.09.png" alt="" />
+        </a>
+      
+    
+  </section>
+
   
     
-      <a href="/releases/#/releases/brown-boys-overcome">
-        <img src="/images/Album-DarkSide.jpg" alt="" />
-      </a>
+      <iframe width="100%" height="400px" src="https://www.youtube.com/embed/-uaCqKKLWws" frameborder="0" allowfullscreen></iframe>
     
   
-</section>
+</main>
 
-
-  
-    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/t9XwrN1iZ_s" frameborder="0" allowfullscreen></iframe>
-  
-
-
-      </main>
+      
     </div>
-    <div class="bracket-bottom">
+    <div class="border-footer">
       <h4>SUPERPOSITION NOW</h4>
     </div>
   </body>

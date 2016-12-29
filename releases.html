@@ -4,30 +4,12 @@ permalink: "/releases/"
 layout: schrodinger-box
 ---
 
-{% for release in site.releases %}
-  <section class="card" id="{{ release.id }}">
-    <img src="{{ release.Artwork }}" alt="{{ release.title }}" />
-    <section class="release-details">
-      <span class="release-artist">{{ release.Artist}}</span>
-      <span class="release-title">{{ release.title}}</span>
-      <span class="release-date">{{ release.date |date: "%F" }}</span>
+<main>
+  {% for release in site.releases %}
+    <section class="album-grid">
+      <a href="{{ release.url }}">
+        <img src="{{ release.Image }}" alt="" />
+      </a>
     </section>
-
-    <section class="small-social">
-      {% include social-links.html type=release %}
-    </section>
-
-    <section class="large-social">
-      {% include store-links.html type=release %}
-    </section>
-
-    {{ release.content }}
-
-    {% for video in site.videos %}
-      {% if video.Release == release.title %}
-        <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
-      {% endif %}
-    {% endfor %}
-
-  </section>
-{% endfor %}
+  {% endfor %}
+</main>
