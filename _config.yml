@@ -25,67 +25,67 @@ defaults:
     layout: artist-detail
     Photo: "/images/Leafs.jpeg"
     Social:
-      Facebook:
-      Twitter:
-      Youtube:
-      Instagram:
-      Soundcloud:
-      Snapchat:
+      Facebook: 
+      Twitter: 
+      Youtube: 
+      Instagram: 
+      Soundcloud: 
+      Snapchat: 
     Stores:
-      iTunes:
-      Amazon:
-      Deezer:
-      Play:
-      Spotify:
-      Beatport:
+      iTunes: 
+      Amazon: 
+      Deezer: 
+      Play: 
+      Spotify: 
+      Beatport: 
 - scope:
     path: ''
     type: releases
   values:
     layout: release-detail
-    Artist:
+    Artist: 
     Image: "/images/Leafs.jpeg"
     Social:
-      Facebook:
-      Twitter:
-      Youtube:
-      Instagram:
-      Soundcloud:
-      Snapchat:
+      Facebook: 
+      Twitter: 
+      Youtube: 
+      Instagram: 
+      Soundcloud: 
+      Snapchat: 
     Stores:
-      iTunes:
-      Amazon:
-      Deezer:
-      Play:
-      Spotify:
-      Beatport:
+      iTunes: 
+      Amazon: 
+      Deezer: 
+      Play: 
+      Spotify: 
+      Beatport: 
 - scope:
     path: ''
     type: videos
   values:
-    Artist:
-    Release:
-    Link:
+    Artist: 
+    Release: 
+    Link: 
     Is-Featured: true
     Social:
-      Facebook:
-      Twitter:
-      Youtube:
-      Instagram:
-      Soundcloud:
-      Snapchat:
+      Facebook: 
+      Twitter: 
+      Youtube: 
+      Instagram: 
+      Soundcloud: 
+      Snapchat: 
     Stores:
-      iTunes:
-      Amazon:
-      Deezer:
-      Play:
-      Spotify:
-      Beatport:
+      iTunes: 
+      Amazon: 
+      Deezer: 
+      Play: 
+      Spotify: 
+      Beatport: 
 email: willi@yellyell.wtf
-description: 'Write an awesome description for your new site here. You can edit this
+description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.'
-baseurl: ""
+  results) and in your feed.xml site description.
+baseurl: ''
 url: http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
