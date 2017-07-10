@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="148px" height="167px" viewBox="0 0 148 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+<svg width="149px" height="61px" viewBox="0 0 149 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>Shop</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="9" width="148" height="148.210131"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="148" height="148.210131" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-    </defs>
-    <g id="CitB-Web-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-956.000000, -1120.000000)">
-            <g id="Group" transform="translate(156.000000, 1120.000000)">
-                <g id="Shop" transform="translate(800.000000, 0.000000)">
-                    <g id="Square">
-                        <g id="Group-2">
-                            <use id="Rectangle-1" stroke="#000000" mask="url(#mask-2)" stroke-width="20" xlink:href="#path-1"></use>
-                            <rect id="Rectangle-2" fill="#FFFFFF" x="50" y="0" width="48.8986784" height="32.6454034"></rect>
-                            <rect id="Rectangle-2-Copy" fill="#FFFFFF" x="50" y="134" width="48.8986784" height="32.6454034"></rect>
-                        </g>
-                    </g>
-                    <path d="M52.408,79.624 L47.946,76.404 C46.888,75.622 46.29,74.932 46.29,73.322 L46.29,69.274 C46.29,67.618 47.072,66.836 48.728,66.836 L49.372,66.836 C51.028,66.836 51.81,67.618 51.81,69.274 L51.81,75.208 L55.398,75.208 L55.398,69.412 C55.398,65.502 53.466,63.524 49.51,63.524 L48.59,63.524 C44.588,63.524 42.61,65.502 42.61,69.504 L42.61,73.368 C42.61,75.99 43.3,77.646 45.692,79.348 L50.2,82.614 C51.258,83.396 51.81,84.086 51.81,85.696 L51.81,90.526 C51.81,92.182 51.028,92.964 49.372,92.964 L48.636,92.964 C46.98,92.964 46.198,92.182 46.198,90.526 L46.198,83.626 L42.61,83.626 L42.61,90.388 C42.61,94.298 44.542,96.276 48.498,96.276 L49.51,96.276 C53.512,96.276 55.49,94.298 55.49,90.296 L55.49,85.604 C55.49,82.844 54.754,81.326 52.408,79.624 L52.408,79.624 Z M62.436,77.83 L62.436,63.8 L58.756,63.8 L58.756,96 L62.436,96 L62.436,81.28 L68.416,81.28 L68.416,96 L72.096,96 L72.096,63.8 L68.416,63.8 L68.416,77.83 L62.436,77.83 Z M88.84,90.296 L88.84,69.504 C88.84,65.502 86.862,63.524 82.86,63.524 L81.48,63.524 C77.478,63.524 75.5,65.502 75.5,69.504 L75.5,90.296 C75.5,94.298 77.478,96.276 81.48,96.276 L82.86,96.276 C86.862,96.276 88.84,94.298 88.84,90.296 L88.84,90.296 Z M85.16,69.32 L85.16,90.48 C85.16,92.136 84.378,92.918 82.722,92.918 L81.618,92.918 C79.962,92.918 79.18,92.136 79.18,90.48 L79.18,69.32 C79.18,67.664 79.962,66.882 81.618,66.882 L82.722,66.882 C84.378,66.882 85.16,67.664 85.16,69.32 L85.16,69.32 Z M95.924,83.902 L98.592,83.902 C102.594,83.902 104.572,81.924 104.572,77.922 L104.572,69.78 C104.572,65.778 102.594,63.8 98.592,63.8 L92.244,63.8 L92.244,96 L95.924,96 L95.924,83.902 Z M100.892,69.596 L100.892,78.106 C100.892,79.762 100.11,80.544 98.454,80.544 L95.924,80.544 L95.924,67.158 L98.454,67.158 C100.11,67.158 100.892,67.94 100.892,69.596 L100.892,69.596 Z" id="SHOP" fill="#000000"></path>
-                </g>
-            </g>
+    <defs></defs>
+    <g id="Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shop">
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="1.5" y="9.29998779" width="55" height="29.2000008"></rect>
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="63.5" y="9.02999878" width="84" height="29.7400017"></rect>
+            <polygon id="Rectangle-2" fill="#FFFFFF" points="48 0 94 0 94 61 50.9822571 59.8581759"></polygon>
+            <text id="SHOP" font-family="Tungsten-Medium, Tungsten" font-size="46" font-weight="400" fill="#000000">
+                <tspan x="42.186" y="40">SHOP</tspan>
+            </text>
         </g>
     </g>
 </svg>

@@ -6,6 +6,26 @@ html {
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "Frontage-Bold";
+  src: url(../fonts/Frontage-Bold.otf);
+}
+
+@font-face {
+  font-family: "Tungsten-Light";
+  src: url(../fonts/Tungsten-Light.otf);
+}
+
+@font-face {
+  font-family: "Tungsten-Thin";
+  src: url(../fonts/Tungsten-Thin.otf);
+}
+
+@font-face {
+  font-family: "Tungsten-Medium";
+  src: url(../fonts/Tungsten-Medium.otf);
+}
+
 body {
   margin: 0;
   color: black;
@@ -81,6 +101,12 @@ nav a img {
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+
 main {
   max-width: 800px;
   margin-left: auto;
@@ -154,9 +180,6 @@ main > iframe {
   margin-right: 2.3576520234%;
   width: 100%;
   margin-right: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: relative;
 }
 
@@ -164,12 +187,12 @@ main > iframe {
   margin-right: 0;
 }
 
-.card:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
 .card p {
   padding: 0 5%;
+}
+
+.card a {
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -234,7 +257,6 @@ main > iframe {
       -ms-flex-align: center;
           align-items: center;
   opacity: 0;
-  -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
@@ -409,6 +431,7 @@ main > iframe {
 
 .border-footer > h4 {
   background-color: white;
+  font-family: "Tungsten-Medium";
   font-size: 60px;
   line-height: 1em;
   margin: 0;

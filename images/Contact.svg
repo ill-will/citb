@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="148px" height="167px" viewBox="0 0 148 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+<svg width="149px" height="60px" viewBox="0 0 149 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>Contact</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="9" width="148" height="148.210131"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="148" height="148.210131" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-    </defs>
-    <g id="CitB-Web-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-1156.000000, -1120.000000)">
-            <g id="Group" transform="translate(156.000000, 1120.000000)">
-                <g id="Contact" transform="translate(1000.000000, 0.000000)">
-                    <g id="Square">
-                        <g id="Group-2">
-                            <use id="Rectangle-1" stroke="#000000" mask="url(#mask-2)" stroke-width="20" xlink:href="#path-1"></use>
-                            <rect id="Rectangle-2" fill="#FFFFFF" x="50" y="0" width="48.8986784" height="32.6454034"></rect>
-                            <rect id="Rectangle-2-Copy" fill="#FFFFFF" x="50" y="134" width="48.8986784" height="32.6454034"></rect>
-                        </g>
-                    </g>
-                    <path d="M29.224,83.626 L29.224,90.48 C29.224,92.136 28.442,92.918 26.786,92.918 L25.774,92.918 C24.118,92.918 23.336,92.136 23.336,90.48 L23.336,69.32 C23.336,67.664 24.118,66.882 25.774,66.882 L26.694,66.882 C28.35,66.882 29.132,67.664 29.132,69.32 L29.132,75.208 L32.72,75.208 L32.72,69.412 C32.72,65.456 30.788,63.524 26.832,63.524 L25.636,63.524 C21.634,63.524 19.656,65.502 19.656,69.504 L19.656,90.296 C19.656,94.298 21.634,96.276 25.636,96.276 L26.832,96.276 C30.834,96.276 32.812,94.298 32.812,90.296 L32.812,83.626 L29.224,83.626 Z M49.28,90.296 L49.28,69.504 C49.28,65.502 47.302,63.524 43.3,63.524 L41.92,63.524 C37.918,63.524 35.94,65.502 35.94,69.504 L35.94,90.296 C35.94,94.298 37.918,96.276 41.92,96.276 L43.3,96.276 C47.302,96.276 49.28,94.298 49.28,90.296 L49.28,90.296 Z M45.6,69.32 L45.6,90.48 C45.6,92.136 44.818,92.918 43.162,92.918 L42.058,92.918 C40.402,92.918 39.62,92.136 39.62,90.48 L39.62,69.32 C39.62,67.664 40.402,66.882 42.058,66.882 L43.162,66.882 C44.818,66.882 45.6,67.664 45.6,69.32 L45.6,69.32 Z M63.08,87.122 L57.744,63.8 L52.684,63.8 L52.684,96 L56.18,96 L56.18,70.838 L61.976,96 L66.576,96 L66.576,63.8 L63.08,63.8 L63.08,87.122 Z M77.294,96 L77.294,67.204 L82.124,67.204 L82.124,63.8 L68.784,63.8 L68.784,67.204 L73.614,67.204 L73.614,96 L77.294,96 Z M93.026,63.708 L88.334,63.708 L83.366,96 L86.908,96 L87.644,90.618 L93.578,90.618 L94.36,96 L97.994,96 L93.026,63.708 Z M90.634,69.504 L93.118,87.306 L88.104,87.306 L90.634,69.504 Z M110,83.626 L110,90.48 C110,92.136 109.218,92.918 107.562,92.918 L106.55,92.918 C104.894,92.918 104.112,92.136 104.112,90.48 L104.112,69.32 C104.112,67.664 104.894,66.882 106.55,66.882 L107.47,66.882 C109.126,66.882 109.908,67.664 109.908,69.32 L109.908,75.208 L113.496,75.208 L113.496,69.412 C113.496,65.456 111.564,63.524 107.608,63.524 L106.412,63.524 C102.41,63.524 100.432,65.502 100.432,69.504 L100.432,90.296 C100.432,94.298 102.41,96.276 106.412,96.276 L107.608,96.276 C111.61,96.276 113.588,94.298 113.588,90.296 L113.588,83.626 L110,83.626 Z M124.03,96 L124.03,67.204 L128.86,67.204 L128.86,63.8 L115.52,63.8 L115.52,67.204 L120.35,67.204 L120.35,96 L124.03,96 Z" id="CONTACT" fill="#000000"></path>
-                </g>
-            </g>
+    <defs></defs>
+    <g id="Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact">
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="1.5" y="9.29998779" width="55" height="29.2000008"></rect>
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="63.5" y="9.02999878" width="84" height="29.7400017"></rect>
+            <polygon id="Rectangle-2" fill="#FFFFFF" points="25 0 116.157456 0.626869963 126.194393 59.8581759 31.4831676 59.8581759"></polygon>
+            <text id="CONTACT" font-family="Tungsten-Medium, Tungsten" font-size="46" font-weight="400" fill="#000000">
+                <tspan x="19.68" y="40">CONTACT</tspan>
+            </text>
         </g>
     </g>
 </svg>
