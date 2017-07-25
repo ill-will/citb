@@ -5,6 +5,8 @@ layout: schrodinger-box
 ---
 
 <main class="artists">
+  {% include nav-button.html %}
+  
   {% for artist in site.artists %}
     <article class="card">
       <a href="{{ artist.url }}">

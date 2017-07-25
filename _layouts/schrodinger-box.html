@@ -10,6 +10,9 @@
     <div class="border-footer">
       <h4>{{page.title|upcase}}</h4>
     </div>
+
+    {% include nav-overlay.html %}
+    
     <div class="box-design">
 
       <!-- <nav class="side-nav">
@@ -25,10 +28,9 @@
 
       <div class="nav-trigger"></div> -->
 
-      {% include front-nav.html %}
 
       {{ content }}
-      
+
     </div>
     <div class="border-footer">
       <h4>SUPERPOSITION NOW</h4>

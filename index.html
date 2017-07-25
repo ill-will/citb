@@ -8,9 +8,11 @@ CITB.
 </header>
 
 
-{% include front-nav.html %}
+{% include nav-overlay.html %}
 
-<main>
+<main id="blog">
+  {% include nav-button.html %}
+
   {% for post in site.posts %}
   <article class="card">
     {{ post.content }}
@@ -20,5 +22,5 @@ CITB.
 
 <footer>
   <img src="/images/label.svg" alt="Logo" />
-  <a href="/impressum/">IMPRESSUM</a>
+  <!-- <a href="/impressum/">IMPRESSUM</a> -->
 </footer>

@@ -37,42 +37,31 @@
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-$( document ).ready(function() {
-  var left = 0;
+  $( document ).ready(function() {
 
-  $(".nav-trigger").click(function(){
-    $(".side-nav").animate({ left: left }, 200 );
-    $(this).hide()
-    menuVisible = true;
+    // Find all YouTube videos and set their aspect ratio to 16:9
+    function correctAR() {
+      var allVideos = $("iframe[src*='//www.youtube.com']");
+
+      allVideos.each(function() {
+        var width = $(this).width();
+        $(this).height(width*9/16);
+      });
+    }
+
+    correctAR();
+
+    $(window).resize(correctAR);
   });
 
-  $(document).click(function(e) {
-      var target = e.target; //target div recorded
-
-      if (!$(target).is('.side-nav') && !$(target).is('.nav-trigger') ) {
-          $(".side-nav").animate({ left: "-100%" }, 200 );
-          $(".nav-trigger").fadeIn()
-          menuVisible = false;
-      }
-  })
-
-
-  // Find all YouTube videos and set their aspect ratio to 16:9
-  function correctAR() {
-    var allVideos = $("iframe[src*='//www.youtube.com']");
-
-    allVideos.each(function() {
-      var width = $(this).width();
-      $(this).height(width*9/16);
-    });
+  function openNav() {
+    document.getElementById("navOverlay").style.width = "100%";
   }
 
-  correctAR();
+  function closeNav() {
+    document.getElementById("navOverlay").style.width = "0%";
+  }
 
-  $(window).resize(correctAR);
-
-
-});
 </script>
 
   </head>
@@ -82,17 +71,28 @@ CITB.
 </header>
 
 
-<nav class="front-nav">
-  <a href="/"><img src="/images/Blog.svg" alt="Blog" /></a>
-  <a href="/artists/"><img src="/images/Artists.svg" alt="Artists" /></a>
-  <a href="/releases/"><img src="/images/Releases.svg" alt="Releases" /></a>
-  <a href="/videos/"><img src="/images/Videos.svg" alt="Videos" /></a>
-  <a href="/"><img src="/images/Shop.svg" alt="Shop" /></a>
-  <a href="/"><img src="/images/Contact.svg" alt="Contact" /></a>
-</nav>
+<div id="navOverlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <nav>
+    <a href="/#blog"><img src="/images/menu/Blog.png" alt="" onclick="closeNav()" /></a>
+    <a href="/artists/"><img src="/images/menu/Artists.png" alt="" /></a>
+    <a href="/releases/"><img src="/images/menu/Releases.png" alt="" /></a>
+    <a href="/videos/"><img src="/images/menu/Videos.png" alt="" /></a>
+    <a href="/"><img src="/images/menu/Shop.png" alt="" /></a>
+    <a href="/"><img src="/images/menu/Contact.png" alt="" /></a>
+  </nav>
+</div>
 
 
-<main>
+<main id="blog">
+  <div class="menuContainer">
+  <div class="menuIcon" onclick="openNav()" >
+    m
+  </div>
+</div>
+
+
   
   <article class="card">
     <p><img src="/uploads/Schrei.jpg" alt="Schrei.jpg" /></p>
@@ -121,7 +121,7 @@ CITB.
 
 <footer>
   <img src="/images/label.svg" alt="Logo" />
-  <a href="/impressum/">IMPRESSUM</a>
+  <!-- <a href="/impressum/">IMPRESSUM</a> -->
 </footer>
 
   </body>

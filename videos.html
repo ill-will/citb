@@ -5,6 +5,7 @@ layout: schrodinger-box
 ---
 
 <main>
+  {% include nav-button.html %}
   {% for video in site.videos %}
     <section class="card video">
       <iframe width="100%" height="400px" src="{{ video.Link | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
